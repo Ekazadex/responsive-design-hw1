@@ -142,3 +142,27 @@ header {
 .child:hover .label {
     display: block;
 } */
+
+/* -------------------------------------------------------------
+   Query #1: Tablet View (Trigger at 772px)
+   ------------------------------------------------------------- */
+@media screen and (min-width: 772px) {
+    div {
+        width: 45%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    img {
+        max-height: 30vh;
+    }
+}
+
+/* -------------------------------------------------------------
+   Query #2: Large Screen View (Trigger at 998px)
+   ------------------------------------------------------------- */
+@media screen and (min-width: 998px) {
+    div {
+        width: 30%;
+    }
+}
